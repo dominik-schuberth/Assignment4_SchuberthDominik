@@ -1,16 +1,17 @@
 # Source: https://blog.quantinsti.com/hierarchical-clustering-python/#agglomerative-hierarchical-clustering
-#Github:
+# Github: https://github.com/dominik-schuberth/Assignment4_SchuberthDominik.git
+
+# Since I use the German excel version, my values were separated by (,) and not by a period (.).
+# That's why I used "decimal =", "" when reading in so that the point numbers can be read in correctly
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.cluster.hierarchy as sch
 from sklearn.cluster import AgglomerativeClustering
 
-
-
-
 # Reading values from the input file
-dataset = pd.read_csv('input.csv',delimiter=";", header = None, skiprows=2)
+dataset = pd.read_csv('input.csv', delimiter=";", header=None, decimal=",", skiprows=2)
 X = np.array(dataset)
 
 # Plot the original data

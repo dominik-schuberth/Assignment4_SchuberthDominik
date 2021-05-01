@@ -1,4 +1,4 @@
-# Source: https://blog.quantinsti.com/hierarchical-clustering-python/#agglomerative-hierarchical-clustering
+# https://blog.quantinsti.com/hierarchical-clustering-python/#agglomerative-hierarchical-clustering
 # Github: https://github.com/dominik-schuberth/Assignment4_SchuberthDominik.git
 
 # Since I use the German excel version, my values were separated by (,) and not by a period (.).

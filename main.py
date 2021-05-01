@@ -2,7 +2,7 @@
 # Github: https://github.com/dominik-schuberth/Assignment4_SchuberthDominik.git
 
 # Since I use the German excel version, my values were separated by (,) and not by a period (.).
-# That's why I used "decimal =", "" when reading in so that the point numbers can be read in correctly
+# That's why I used "decimal =", "" when reading in so that the numbers can be read in correctly
 
 import numpy as np
 import pandas as pd
